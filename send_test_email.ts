@@ -5,7 +5,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function triggerTestEmail() {
-  const testEmail = 'lucky.byte1710@tembox.xyz';
+  const testEmail = 'vivid.drift176@tembox.xyz';
   
   console.log(`🚀 Triggering test onboarding email to: ${testEmail}`);
   

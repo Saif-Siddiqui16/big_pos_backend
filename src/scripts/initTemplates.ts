@@ -21,6 +21,10 @@ const RETAILER_TEMPLATES = [
       <p>You can now access your retail dashboard using the link below:</p>
       <p><a href="{{login_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Access Dashboard</a></p>
       <p>Please keep your login credentials secure.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -40,6 +44,10 @@ const RETAILER_TEMPLATES = [
         <li>Estimated Delivery: {{estimated_delivery}}</li>
       </ul>
       <p>Please prepare to receive the delivery. You may track the order status through your dashboard.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -63,6 +71,10 @@ const RETAILER_TEMPLATES = [
       <p><strong>Receipt:</strong><br/>
       <a href="{{receipt_url}}">{{receipt_url}}</a></p>
       <p>Please keep this email for your records.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -80,6 +92,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p>Please review and approve or reject the request from your dashboard:</p>
       <p><a href="{{dashboard_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Review Request</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -95,6 +111,10 @@ const RETAILER_TEMPLATES = [
         <li>Approval Date: {{approval_date}}</li>
       </ul>
       <p>The customer is now linked to your retail account.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -111,6 +131,10 @@ const RETAILER_TEMPLATES = [
         <li>Transaction ID: {{transaction_id}}</li>
         <li>Date: {{topup_date}}</li>
       </ul>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -141,6 +165,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p><strong>Detailed report:</strong><br/>
       <a href="{{report_url}}">{{report_url}}</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -158,6 +186,10 @@ const RETAILER_TEMPLATES = [
         <li>Reason: {{reason}}</li>
       </ul>
       <p>Your request is currently under review. You will receive another notification once the request has been approved or rejected.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -177,6 +209,10 @@ const RETAILER_TEMPLATES = [
       <p><strong>Repayment link:</strong><br/>
       <a href="{{repayment_url}}">{{repayment_url}}</a></p>
       <p>Please ensure repayment before the due date to maintain good account standing.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -194,6 +230,10 @@ const RETAILER_TEMPLATES = [
         <li>Transaction ID: {{transaction_id}}</li>
       </ul>
       <p>Thank you for your payment.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -216,6 +256,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p><strong>Detailed report:</strong><br/>
       <a href="{{report_url}}">{{report_url}}</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -232,6 +276,10 @@ const RETAILER_TEMPLATES = [
         <li>IP Address: {{ip_address}}</li>
       </ul>
       <p>If you did not perform this action, please contact support immediately.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -249,6 +297,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p>Please restock as soon as possible to avoid stock interruption:</p>
       <p><a href="{{restock_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Restock Now</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -263,6 +315,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p>Please place a restocking order immediately to continue serving customers:</p>
       <p><a href="{{restock_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Place Order</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -281,6 +337,10 @@ const RETAILER_TEMPLATES = [
       <p>If this activity was not authorized by you, please secure your account immediately and contact support.</p>
       <p><strong>Security page:</strong><br/>
       <a href="{{security_url}}">{{security_url}}</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -297,6 +357,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p>Please top up your wallet to continue operations smoothly:</p>
       <p><a href="{{topup_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Top Up Wallet</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -313,6 +377,10 @@ const RETAILER_TEMPLATES = [
         <li>IP Address: {{ip}}</li>
       </ul>
       <p>If this was not you, we recommend changing your password immediately.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -329,6 +397,10 @@ const RETAILER_TEMPLATES = [
         <li>Failure Reason: {{reason}}</li>
       </ul>
       <p>Please review the issue and try again or contact support for assistance.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -346,6 +418,10 @@ const RETAILER_TEMPLATES = [
       </ul>
       <p>Immediate review is recommended to avoid operational delays:</p>
       <p><a href="{{dashboard_url}}" style="display: inline-block; padding: 10px 20px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 5px;">Review Order</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   }
 ];
@@ -371,6 +447,10 @@ const WHOLESALER_TEMPLATES = [
       <p>You can now access your wholesaler dashboard using the link below:</p>
       <p><a href="{{login_url}}" class="button">Access Wholesaler Dashboard</a></p>
       <p>Please keep your login credentials secure.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -393,6 +473,10 @@ const WHOLESALER_TEMPLATES = [
       </div>
       <p>For a detailed breakdown, please view the full report:</p>
       <p><a href="{{report_url}}" class="button">View Detailed Report</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -413,6 +497,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>Please review and process this order from your dashboard:</p>
       <p><a href="{{dashboard_url}}" class="button">Process Order</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -435,6 +523,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>Remaining Balance</td><td>{{balance}} RWF</td></tr>
       </table>
       <p><a href="{{receipt_url}}" class="button">View Receipt</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -452,6 +544,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>Please approve or reject the request from your dashboard:</p>
       <p><a href="{{dashboard_url}}" class="button">View Link Request</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -471,6 +567,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>Please review and approve or reject the request from your dashboard:</p>
       <p><a href="{{dashboard_url}}" class="button">Review Credit Request</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -490,6 +590,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>Due Date</td><td>{{due_date}}</td></tr>
         <tr><td>Current Credit Balance</td><td>{{current_credit_balance}} RWF</td></tr>
       </table>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -507,6 +611,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>Payment Date</td><td>{{payment_date}}</td></tr>
         <tr><td>Transaction ID</td><td>{{transaction_id}}</td></tr>
       </table>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -527,6 +635,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>Expected Delivery</td><td>{{expected_delivery}}</td></tr>
       </table>
       <p><a href="{{receipt_url}}" class="button">View Order Receipt</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -543,6 +655,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>Supplier Email</td><td>{{supplier_email}}</td></tr>
         <tr><td>Date Added</td><td>{{created_date}}</td></tr>
       </table>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -571,6 +687,10 @@ const WHOLESALER_TEMPLATES = [
         Transfer Date: {{transfer_date}}
       </div>
       <p><a href="{{report_url}}" class="button">Detailed Financial Report</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -587,6 +707,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>IP Address</td><td>{{ip_address}}</td></tr>
       </table>
       <p>If you did not perform this action, please contact support immediately.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -604,6 +728,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>Please restock as soon as possible to avoid stock interruption:</p>
       <p><a href="{{restock_url}}" class="button">Restock Inventory</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -618,6 +746,10 @@ const WHOLESALER_TEMPLATES = [
       </div>
       <p>Please place a restocking order immediately to continue operations:</p>
       <p><a href="{{restock_url}}" class="button">Order Stock Now</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -635,6 +767,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>If this activity was not authorized by you, please secure your account immediately.</p>
       <p><a href="{{security_url}}" class="button">Review Security</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -651,6 +787,10 @@ const WHOLESALER_TEMPLATES = [
         <tr><td>IP Address</td><td>{{ip}}</td></tr>
       </table>
       <p>If this was not you, we recommend changing your password immediately.</p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   },
   {
@@ -669,6 +809,10 @@ const WHOLESALER_TEMPLATES = [
       </table>
       <p>Please review the item from your dashboard:</p>
       <p><a href="{{dashboard_url}}" class="button">Review Item</a></p>
+      <p>Regards,<br/>
+      Big Innovation Group Ltd<br/>
+      +250788541239<br/>
+      Info@big.co.rw</p>
     `
   }
 ];
@@ -686,7 +830,7 @@ const CUSTOMER_SMS_TEMPLATES = [
     name: 'CUS-SMS-002',
     subject: 'Order Delivery Confirmation',
     description: 'Triggered when customer order is marked delivered',
-    content: 'Hello {{customer_name}}, your order {{order_id}} has been delivered on {{delivery_date}}. Amount: {{amount}} RWF. Thank you. for support call: +250788541239. Big Innovation Group Ltd | BIG Energy Platform | info@big.co.rw'
+    content: 'Hello {{customer_name}}, your order {{order_id}} has been delivered on {{delivery_date}}. Amount: {{amount}} RWF. Thank you. for support call: +250788541239.'
   },
   {
     name: 'CUS-SMS-003',

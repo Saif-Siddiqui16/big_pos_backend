@@ -3,6 +3,7 @@ export class TemplateService {
    * Base wrapper for all emails to ensure consistent branding.
    */
   private static wrap(content: string, title: string = 'Big Innovation Group Ltd'): string {
+    const hasRegards = content.includes('Regards') || content.includes('Big Innovation Group Ltd') || content.includes('info@big.co.rw') || content.includes('Info@big.co.rw');
     return `
       <!DOCTYPE html>
       <html>
@@ -30,11 +31,13 @@ export class TemplateService {
             ${content}
           </div>
           <div class="footer">
-            <p style="margin-bottom: 5px; font-weight: bold;">Regards,</p>
-            <p style="margin: 0;">Big Innovation Group Ltd</p>
-            <p style="margin: 0;">+250788541239</p>
-            <p style="margin: 0;">Info@big.co.rw</p>
-            <hr style="border: none; border-top: 1px solid #ddd; margin: 15px 0;" />
+            ${hasRegards ? '' : `
+              <p style="margin-bottom: 5px; font-weight: bold;">Regards,</p>
+              <p style="margin: 0;">Big Innovation Group Ltd</p>
+              <p style="margin: 0;">+250788541239</p>
+              <p style="margin: 0;">Info@big.co.rw</p>
+              <hr style="border: none; border-top: 1px solid #ddd; margin: 15px 0;" />
+            `}
             <p style="font-size: 11px; color: #999;">&copy; ${new Date().getFullYear()} Big Innovation Group Ltd. All rights reserved.</p>
             <p style="font-size: 11px; color: #999;">This is an automated email disclaimer. Please do not reply directly to this notification.</p>
           </div>
