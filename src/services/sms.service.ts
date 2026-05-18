@@ -54,17 +54,25 @@ export class SMSService {
     try {
       console.log(`📱 [SMSService] Sending SMS to ${normalizedTo}...`);
 
-      const queryParams = new URLSearchParams({
-        username: username,
-        password: password,
+      const postData = new URLSearchParams({
         recipients: normalizedTo,
         message: message,
         sender: senderId,
         ...(dlrUrl && { dlrurl: dlrUrl })
       });
 
-      const response = await axios.get(`${this.API_URL}?${queryParams.toString()}`);
+      const response = await axios.post(this.API_URL, postData.toString(), {
+        auth: {
+          username: username,
+          password: password
+        },
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      });
       const result = response.data;
+
+      console.log(`📡 [SMSService] Raw Gateway Response:`, JSON.stringify(result, null, 2));
 
       // Intouch returns success: true for success, or success: false with errors array
       if (result.success) {

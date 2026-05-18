@@ -51,6 +51,19 @@ export const emailWorker = new Worker(
       let finalSubject = manualSubject;
       let finalHtml = manualHtml;
 
+      // Resolve the actual template name from the event slug if it is mapped
+      let resolvedTemplateName = templateType || 'GENERIC';
+      try {
+        const mapping = await prisma.emailEvent.findUnique({
+          where: { eventSlug: resolvedTemplateName }
+        });
+        if (mapping) {
+          resolvedTemplateName = mapping.templateName;
+        }
+      } catch (err) {}
+
+      const isSMS = resolvedTemplateName.includes('SMS') || (templateType && templateType.includes('SMS'));
+
       // If data is provided, we MUST use the TemplateService to get the content
       // This ensures we use the DB-stored templates if they exist (Requirement 4.2.1)
       if (data) {
@@ -62,8 +75,8 @@ export const emailWorker = new Worker(
         finalHtml = template.html;
       }
 
-      // ROUTING LOGIC: If template name contains SMS, send via SMSService
-      if (templateType && templateType.includes('SMS')) {
+      // ROUTING LOGIC: If resolved template name contains SMS, send via SMSService
+      if (isSMS) {
         const { SMSService } = await import('../services/sms.service');
         // For SMS, we use the raw content from finalHtml (which is the template.html)
         // Strip HTML tags if any (though SMS templates should be plain text)
